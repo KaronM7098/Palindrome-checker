@@ -1,0 +1,58 @@
+/*initializing variable colors for page*/
+:root{
+    --primary-color:#252323;
+    --secondary-color:#1E1D1D;
+    --tertiary-color:#181717;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-family:georgia;
+    background-color:var(--primary-color);
+    color:white;
+  }
+  .main-container{
+    background-color:var(--secondary-color);
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content:center;
+    padding:30px;
+    margin-top:25vh;
+  }
+  #word-input{
+    background-color:transparent;
+    border-left:transparent;
+    border-right:transparent;
+    border-top:transparent;
+    border-color:white;
+    color:white;
+  }
+  #word-submit{
+    color:white;
+    background-color:var(--tertiary-color);
+    padding:10px;
+  }
+  .what-is-palindrome{
+    margin-left:30px;
+  }
+  .input-container{
+    display:flex;
+  }
+  #what-palindrome-para{
+    margin-left:;
+    font-size:calc(11px + .5vw);
+  }
+  .inputs{
+    margin-top:15px;
+  }
+  #palindrome{
+    font-size:20px;
+    visibility:hidden;
+  }
+  
+  span {
+    font-weight:bold;
+  }
